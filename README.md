@@ -59,7 +59,7 @@ or
 
 # Other notes
 
-You can find people from LW who are on twitter in this
+You can find people from LessWrong who are on twitter in this
 [thread](http://lesswrong.com/lw/d92/less_wrong_on_twitter/). I saved them in
 `LW_accounts.txt`. Execute with
 
