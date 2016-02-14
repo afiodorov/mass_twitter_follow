@@ -25,7 +25,16 @@ optional arguments:
 
 # Obtaining the token
 
-See [getting started with tweepy](http://www.compjour.org/tutorials/getting-started-with-tweepy/)
+See [getting started with tweepy](http://www.compjour.org/tutorials/getting-started-with-tweepy/). Then edit the `settings.json` file:
+
+```.json
+{
+	"consumer_token": "SAMPLE_TOKEN",
+	"consumer_secret": "SAMPLE_SECRET",
+	"access_token": "SAMPLE_ACCESS_TOKEN",
+	"access_token_secret": "SAMPLE_ACCESS_SECRET"
+}
+```
 
 # Installation
 
