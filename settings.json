@@ -1,0 +1,6 @@
+{
+	"consumer_token": "SAMPLE_TOKEN",
+	"consumer_secret": "SAMPLE_SECRET",
+	"access_token": "SAMPLE_ACCESS_TOKEN",
+	"access_token_secret": "SAMPLE_ACCESS_SECRET"
+}
