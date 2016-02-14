@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
     elif(args.to_follow):
         for line in args.to_follow:
-            if line[0] == '#':
+            if line[0:2] == '# ':
                 continue
             try:
                 api.create_friendship(screen_name=line)
@@ -55,4 +55,4 @@ if __name__ == "__main__":
                 continue
     else:
         print("Please pass in the file of users to follow or a user whose"
-              "followers to copy")
+              " followers to copy")
