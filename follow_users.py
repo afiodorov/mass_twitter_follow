@@ -41,7 +41,11 @@ if __name__ == "__main__":
     if(args.copy_following):
         acccount = args.copy_following
         for friend in tweepy.Cursor(api.friends, screen_name=acccount).items():
-            friend.follow()
+            try:
+                friend.follow()
+            except tweepy.TweepError, e:
+                print(e)
+                continue
 
     elif(args.to_follow):
         for line in args.to_follow:
