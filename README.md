@@ -1,6 +1,6 @@
 # New to Twitter?
 
-Mass-follow users by running the this script.
+Mass-follow users by running this script.
 
 You can either:
 
