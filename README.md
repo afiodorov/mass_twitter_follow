@@ -5,7 +5,7 @@ Mass-follow users by running this script.
 You can either:
 
    * pass a list of users to follow (defaults to to_follow.txt), one user per
-   line
+   line. Lines starting with `# ` will be ignored
    * follow everyone a certain account follows
 
 ```.bash
@@ -61,4 +61,8 @@ or
 
 You can find people from LW who are on twitter in this
 [thread](http://lesswrong.com/lw/d92/less_wrong_on_twitter/). I saved them in
-`LW_accounts.txt`.
+`LW_accounts.txt`. Execute with
+
+```.bash
+./follow_users.py -t LW_accounts.txt
+```
