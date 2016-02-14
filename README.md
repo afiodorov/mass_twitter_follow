@@ -42,8 +42,17 @@ See [getting started with tweepy](http://www.compjour.org/tutorials/getting-star
 pip install -U -r requirements.txt
 ```
 
+This will install tweepy module.
+
 # Running the script
 
 ```.bash
 ./follow_users.py
+```
+
+or
+
+
+```.bash
+./follow_users.py -c "YOUR FRIEND'S TWITTER"
 ```
