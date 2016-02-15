@@ -1,8 +1,10 @@
 #!/usr/bin/env python
+# PYTHON_ARGCOMPLETE_OK
 
 import tweepy
 import json
 import argparse
+import argcomplete
 import os
 
 if __name__ == "__main__":
@@ -28,6 +30,7 @@ if __name__ == "__main__":
                         metavar="Twitter Account",
                         type=str)
 
+    argcomplete.autocomplete(parser)
     args = parser.parse_args()
 
     s = json.load(args.settings_file)
